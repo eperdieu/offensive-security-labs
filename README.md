@@ -6,7 +6,6 @@ This repo holds lab reports and writeups I completed during CIT-404: Offensive S
 
 | Topic | Tools Used |
 |-------|-----------|
-| Kali Linux Environment Setup | Kali, VMware |
 | Pre-Engagement & Scope Analysis | Manual SOW Review |
 | Passive & Active OSINT Recon | SpiderFoot, theHarvester, Maltego |
 | Cybercrime Research & IC3 Reporting | IC3, OSINT |
