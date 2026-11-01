@@ -6,7 +6,7 @@
 
 CIT 45100 · Purdue University Indianapolis
 
-<img src="assets/offensive_tools" alt="Tools and frameworks: AWS Threat Composer, Microsoft Threat Modeling Tool, OWASP Threat Dragon, Lucidchart, NIST CSF, STRIDE, MITRE ATT&CK" width="100%">
+<img src="assets/offensive_tools.png" alt="Tools and frameworks: AWS Threat Composer, Microsoft Threat Modeling Tool, OWASP Threat Dragon, Lucidchart, NIST CSF, STRIDE, MITRE ATT&CK" width="100%">
 
 </div>
 
