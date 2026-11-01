@@ -1,28 +1,57 @@
-# offensive-security-labs
+<div align="center">
 
-This repo holds lab reports and writeups I completed during CIT-404: Offensive Security at Purdue University Indianapolis. The labs cover the full offensive security lifecycle from pre-engagement planning all the way through exploitation and post-exploitation techniques. Everything was done in a controlled environment using Kali Linux, Docker containers, and DVWA as targets.
+# Risk Assessment and Compliance
 
-## What's Covered
+**Threat modeling and security controls for a fictional healthcare organization**
 
-| Topic | Tools Used |
-|-------|-----------|
-| Pre-Engagement & Scope Analysis | Manual SOW Review |
-| Passive & Active OSINT Recon | SpiderFoot, theHarvester, Maltego |
-| Cybercrime Research & IC3 Reporting | IC3, OSINT |
-| CVE Research & CVSS 4.0 Scoring | NVD, CISA KEV |
-| Web App Exploitation (DVWA) | ZAP, Burp Suite, DVWA |
-| Social Engineering & Phishing Analysis | SET, MXToolbox |
-| Password & Hash Cracking | John the Ripper |
-| Linux Persistence & Lateral Movement | Netcat, Panix, systemd, Cron |
+CIT 45100 · Purdue University Indianapolis
 
-## Environment
+<img src="assets/risk_tools.png" alt="Tools and frameworks: AWS Threat Composer, Microsoft Threat Modeling Tool, OWASP Threat Dragon, Lucidchart, NIST CSF, STRIDE, MITRE ATT&CK" width="100%">
 
-All labs were conducted on Kali Linux running in VMware with Ubuntu Docker containers as targets. No testing was performed against live systems outside of authorized lab environments.
+</div>
 
-## Tools
+---
 
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?logo=kalilinux&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-grey)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?logo=burpsuite&logoColor=white)
-![John the Ripper](https://img.shields.io/badge/John_the_Ripper-grey)
+## At a glance
+
+| 3 parts | 10 threats modeled | 6 security controls | 12 deliverables |
+|:---:|:---:|:---:|:---:|
+| Inventory, threat model, controls | STRIDE classified | Preventive, detective, corrective | Diagrams, catalogs, case studies |
+
+## Overview
+
+A full risk assessment of **Health Network**, a fictional healthcare organization that handles patient data, payment processing, and medical messaging. The course focused on government and industry frameworks, threat modeling, security control design, and real world risk analysis.
+
+## The three parts
+
+**Part 1: Assets and threats.** Built the asset inventory, process map, and first threat list. Compared Microsoft Threat Modeling Tool and AWS Threat Composer side by side, covering the advantages and limits of each for modeling Health Network.
+
+**Part 2: Threat model.** Expanded the model in AWS Threat Composer with full STRIDE classification, built data flow diagrams in Lucidchart, and mapped mitigations for 10 threats: SQL injection, DDoS, ransomware, physical theft, and insider threats.
+
+**Part 3: Security controls.** Finished a control catalog with six controls across preventive, detective, and corrective phases, a control interaction diagram, a gap analysis of residual risk, and a MITRE ATT&CK mapping of a LockBit ransomware scenario against Health Network.
+
+<details>
+<summary><b>All deliverables</b></summary>
+
+<br>
+
+| Deliverable | Description |
+|-------------|-------------|
+| Asset Inventory | Classified assets across Health Network's production environment |
+| Asset Classification Diagram | Data flow and trust boundary diagram built in Microsoft Threat Modeling Tool |
+| Data Flow Diagrams | Data movement across HNetPay, HNetExchange, and HNetConnect |
+| Threat Model | 10 STRIDE classified threats in AWS Threat Composer with mitigations mapped |
+| Process Map | HNetConnect patient search flow, with SQL injection and information disclosure risks |
+| Security Control Catalog | Preventive, detective, and corrective controls with implementation steps, risk mitigation, and testing criteria |
+| Control Interaction Diagram | How controls layer across attack phases |
+| MITRE ATT&CK Mapping | LockBit ransomware techniques mapped to Health Network using ATT&CK Navigator |
+| MITRE ATT&CK Technique Breakdown | Each technique with targeted assets, detections, and controls |
+| Framework Comparison | NIST, ISO, and supply chain security model analysis |
+| Case Study Analysis | Breach post mortem and compliance critique (Everbridge) |
+| Awareness Campaign Evaluation | Critique of real cybersecurity awareness material |
+
+</details>
+
+---
+
+<sub>All work was performed on a fictional healthcare organization for educational purposes. No real patient or payment data was involved.</sub>
